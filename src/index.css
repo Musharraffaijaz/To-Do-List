@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  padding: 2em;
+  background: url('https://i.pinimg.com/originals/d7/33/34/d733345e4f11231904e7634a04439e21.gif') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  color: hsl(198, 1%, 29%);
+  font-family: "poppins";
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 25%;
+  height: auto;
+  min-height: 500px;
+  min-width: 350px;
+  background: url('https://thumbs.gfycat.com/AdorableJauntyHadrosaurus-size_restricted.gif') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 2rem;
+  box-shadow: 10px 10px 1px rgb(0, 0, 0);
+  margin: 15% auto;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  padding: 0.2rem 1.2rem;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px 1px rgb(0, 0, 0);
+}
+
+.form input {
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 5px transparent;
+  border-bottom: solid 3px #000;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  color: #000;
+  font-weight: 700;
+  width: 70%;
+  margin-bottom: 20px;
+  outline: none;
+  margin-top: 5%;
+}
+
+button {
+  padding: 0;
+  font-family: "poppins ";
+  padding-bottom: 3px;
+  width: 5em;
+  height: 2.5em;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px rgb(0, 0, 0);
+  font-family: "poppins";
+  background: #fff;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+
+}
+button span {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+button:hover{
+  background: #000;
+  box-shadow: none;
+  color: #fff;
+}
+ul{
+  margin-top: 5%;
+  list-style: none;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem ;
+  margin: 3% 3%;
+  cursor:pointer;
+  border:1px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px rgb(0, 0, 0);
+  background: #fff;
+}
+.footer{
+  bottom: 0;
+}
+.footer p{
+ font-family: "poppins";
+ font-size: 1em;
+}
